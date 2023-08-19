@@ -1,5 +1,5 @@
 import Form2 from "./auth/form2"
-export default function Header(){
+export default function signin(){
     return (
         <>
         <div className="" >

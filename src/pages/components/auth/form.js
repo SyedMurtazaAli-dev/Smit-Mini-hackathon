@@ -1,15 +1,15 @@
 import Link from "next/link";
 import { useRef } from "react";
 
-export default function Form({ signin /* onFormSubmit */ }) {
-/*   const emailRef = useRef();
+export default function Form({  onFormSubmit  }) {
+   const emailRef = useRef();
   const passwordRef = useRef();
   const onSubmitHandler = (e) => {
     const email = emailRef.current.value;
     const password = passwordRef.current.value;
     e.preventDefault();
     onFormSubmit(email, password);
-  } */
+  } 
   return (
     <>
       <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8">
@@ -20,7 +20,7 @@ export default function Form({ signin /* onFormSubmit */ }) {
         </div>
 
         <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
-          <form className="space-y-6" /* onSubmit={onSubmitHandler} */  >
+          <form className="space-y-6"  onSubmit={onSubmitHandler}   >
           <div>
               <div className="flex items-center justify-between">
            
