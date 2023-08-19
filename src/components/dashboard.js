@@ -5,7 +5,7 @@ export default function Dashboard() {
     return (
         <>
             <div>
-                <h1 className=" font-bold text-xl pl-40 pt-10 ">Dashboard</h1>
+                <h1 className=" font-bold text-xl pl-40 pt-10 fontdash ">Dashboard</h1>
                 <div>
                     <form className="w-full flex justify-center items-center">
                         <div className=" border border-gray-300 rounded-md w-3/4 mt-20 justify-center items-center flex-col ">
