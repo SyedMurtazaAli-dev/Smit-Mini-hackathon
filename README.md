@@ -1,0 +1,1 @@
+# Smit-Mini-hackathon
