@@ -3,8 +3,8 @@ import { data } from "autoprefixer";
 import { getSession } from "next-auth/react"
 import { signIn } from "next-auth/react";
 export default function SignIn() {
-    const onSubmit = (email, password , first , last) => {
-        const data = signIn('credentials', { redirect: true, email, password , first , last })
+    const onSubmit = (email, password ) => {
+        const data = signIn('credentials', { redirect: true, email, password })
         console.log(data)
     };
     return ( <div>

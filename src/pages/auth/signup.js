@@ -3,7 +3,7 @@ import { redirect } from "next/dist/server/api-utils";
 import Link from "next/link";
 
 export default function SignUp () {
-    const onSubmit = async (email, password) => {
+    const onSubmit = async ( email, password) => {
     try{
          const response = await fetch("/api/auth/signup", {
             method: "POST",

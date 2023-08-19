@@ -36,7 +36,7 @@ export default function Header() {
                   Profile
                 </Link>
               </>
-            ) : null }
+            ) : null}
           </div>
         </div>
       </nav>
